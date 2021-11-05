@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;800&display=swap');
+
+body {
+background-color:
+ rgb(171, 240, 68);
+ font-family: 'Gemunu Libre', sans-serif;
+ 
+ font-weight: bold;
+}
+a {text-decoration:none;
+color:rgb(50, 50, 241)
+}
+ul{
+list-style-type:square ;   
+}
+P{
+    font-weight:400;
+}
+.header{
+    margin: none;
+    background-color: rgba(131, 131, 255, 0.801);
+}
+ .head{
+     text-align: center;
+     font-family: 'Exo 2', sans-serif;
+}
+
+.name{
+    margin:30px 30px ;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.lesson{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100px;
+    width: 230px;
+    display: block;
+
+}
+
+.beginding{
+    margin: 30px;
+    border-radius: 3%;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    
+}
+
+.makup{
+    margin: 30px;
+    border-radius: 3%;
+    background-color:rgba(222, 222, 222);
+    display: flex;
+    
+}
+hr{
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a{
+    border: 1px solid rgb(104, 215, 230);
+    height: 25px;
+    width: 70px;
+    text-decoration: none;
+    display: flex;
+    size: 50px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    transition: background 0.5s;
+}
+
+a:hover{
+    background-color:rgb(104, 215, 230);
+    transition: background 0.5s;
+}
+.card{
+    margin-top: -30px;
+    margin-left: 145px;
+}
+
+.telegram::after{
+    content: '' ;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+
+

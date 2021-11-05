@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(5, 5, 5);
+    color: snow;
+    font-weight: 400;
+    font-size:16 px ;
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+ul{
+  list-style-type: none;  
+}
+
+h1{
+    font-size: 36px;
+ padding: 15px;
+ text-align: center;   
+}
+h1 span{
+color: aqua;
+ }
+ h2{
+ font-size: 32px ; 
+ margin-bottom: 5px;  
+
+ }
+
+ .main{
+     width:1800px ;
+     height:800px ;
+     border-spacing: 25px;
+     margin: 15px auto;
+
+ }
+ .main-left,.main-right{
+     border-radius: 5px;
+     margin: 0 15px;
+     padding: 0 25px;
+     text-align: center;
+     
+     -webkit-box-shadow: -79px 0px 8px -6px rgba(222, 226, 229, 0.2);
+-moz-box-shadow: -79px 0px 8px -6px rgba(222, 226, 229, 0.2);
+box-shadow: -79px 0px 8px -6px rgba(222, 226, 229, 0.2);
+ }
+ .images{
+     width: 200px;
+ }
+ .main-left{
+     width: 450px;
+ }
+ .main-right{
+     width: 1250px;
+ }
+ .main-left td{
+width: 450px;
+height: 150px;
+padding:15 0 px ;
+border-bottom: 1px solid white;
+
+ }
+ .main-right td{
+    width: 1250px;
+    height: 150px;
+    padding:15 0 px ;
+    border-bottom: 1px solid white;
+     }
+     a{
+         text-decoration: none ;
+         color: blue;
+     }
+     .btn{
+         padding: 10 px 30 px;
+         background-color: white;
+         color:black ;
+         border-radius: 3px;
+         -webkit-box-shadow: -22px 0px 8px -6px rgba(246, 249, 251, 0.2);
+-moz-box-shadow: -22px 0px 8px -6px rgba(246, 249, 251, 0.2);
+box-shadow: -22px 0px 8px -6px rgba(246, 249, 251, 0.2);
+     }
+     .centered{
+         text-align: center;
+     }
